@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>疫情监控</title>
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+    <script src="../static/js/echarts.min.js"></script>
+    <script src="../static/js/china.js"></script>
+    <link href="../static/css/main.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="title">疫情数据实时追踪</div>
+    <div id="time"></div>
+    <div id="l1"></div>
+    <div id="l2">
+        <div class="title">中高风险地区</div>
+        <div class="ts"></div>
+
+        <div id="risk_wrapper">
+            <div id="risk_wrapper_li1">
+                <ul>
+                </ul>
+            </div>
+            <div id="risk_wrapper_li2"></div>
+        </div>
+
+    </div>
+    <div id="m1">
+        <div class="num"><h1></h1></div>
+        <div class="num"><h1></h1></div>
+        <div class="num"><h1></h1></div>
+        <div class="num"><h1></h1></div>
+        <div class="txt">累计确诊</div>
+        <div class="txt">剩余疑似</div>
+        <div class="txt">累计治愈</div>
+        <div class="txt">累计死亡</div> 
+
+    </div>
+    <div id="m2"></div>
+    <div id="r1"></div>
+    <div id="r2"></div>
+
+    <script src="../static/js/ec_center.js"></script>
+    <script src="../static/js/ec_left1.js"></script>
+    <script src="../static/js/ec_left2.js"></script>
+    <script src="../static/js/ec_right1.js"></script>
+    <script src="../static/js/ec_right2.js"></script>
+    <script src="../static/js/controller.js"></script>
+
+
+    
+</body>
+</html>

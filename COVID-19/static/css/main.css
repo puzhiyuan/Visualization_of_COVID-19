@@ -1,0 +1,147 @@
+body{
+    /* background-color: #333; */
+    background-color: #100c2a;
+    margin: 0%;
+}
+
+#time{
+    position: absolute;
+    height: 10%;
+    right: 2%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#title{
+    position: absolute;
+    height: 10%;
+    width: 40%;
+    left: 30%;
+    top: 0;
+    color: white;
+    font-size: 35px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#l1{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    top: 10%;
+}
+#l2{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    top: 55%;
+}
+
+
+#l2 {
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	left: 0%;
+}
+.high_risk{
+	color: red;
+}
+.middle_risk{
+	color: yellow;
+}
+#risk_wrapper{
+	margin-top: 2.5%;
+	overflow: hidden;
+	height: 80%;
+	text-align: center;
+}
+#l2 .title{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+#l2 .ts{
+	color: white;
+	font-size: 14px;
+	text-align: right;
+}
+#l2 ul{
+	list-style: none;
+}
+#l2 li{
+	color: white;
+	text-align: justify;
+	font-size: 12px;
+
+}
+
+
+
+
+
+
+#m1{
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    left: 30%;
+    top: 10%;
+    
+}
+
+.num{
+    width: 25%;
+    height: 50%;
+    float: left;
+    display: flex;
+    /* align-items: flex-end; */
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-size: 10px;
+}
+
+.txt{
+    width: 25%;
+    height: 50%;
+    float: left;
+    display: flex;
+    /* align-items: center; */
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+#m2{
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 30%;
+    top: 40%;
+}
+#r1{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    left: 70%;
+    top: 10%;
+}
+#r2{
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    top: 55%;
+    left: 70%;
+}
+
+
