@@ -1,4 +1,4 @@
-#" Visualization_of_COVID-19" 
+# Visualization_of_COVID-19
 
 ![avatar](https://github.com/puzhiyuan/Visualization_of_COVID-19/blob/main/picture/main.png)
 
